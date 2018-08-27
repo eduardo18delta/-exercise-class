@@ -1,6 +1,6 @@
 <?php
 
-class SeresHumasnos{
+class SeresHumanos{
 	
 	function objetos()
 	{
