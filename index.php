@@ -1,7 +1,8 @@
 <?php
 include 'pessoa.php';
 
-$chamandoclasses = new Pessoa;
-$chamandoclasses->Andar();
+$Pessoa = new Pessoa;
+
+$Pessoa->Andar();
 
 ?>

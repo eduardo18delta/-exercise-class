@@ -7,6 +7,6 @@ class Pessoa{
 	
 	Public function andar()
 	{
-		echo "Andando... \n";
+		echo "Andando...% \n";
 	}
 }
