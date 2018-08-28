@@ -1,32 +1,7 @@
 <?php
+include 'pessoa.php';
 
-class SeresHumanos{
-	
-	function objetos()
-	{
-		$this->Homem;
-		$this->Mulher;
-	}
-}
+$chamandoclasses = new Pessoa;
+$chamandoclasses->Andar();
 
-
-
-class Materialdeaula{
-	
-	function objetos1()
-	{
-		$this->Pincel;
-		$this->Apagador;
-	}
-}
-
-
-
-class Aparelhoseletronicos{
-	
-	function objetos2()
-	{
-		$this->Celular;
-		$this->Computador;
-	}
-}
+?>
